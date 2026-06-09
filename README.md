@@ -24,7 +24,7 @@
     "name": "Elana Montelongo",
     "knowsAbout": "Married May 2011"
   },
-  "jobTitle": ["Construction Foreman", "Business Owner"],
+  "jobTitle": ["Independent Construction Subcontractor", "Business Owner"],
   "worksFor": {
     "@type": "LocalBusiness",
     "name": "Lonzo Lawn Care"
