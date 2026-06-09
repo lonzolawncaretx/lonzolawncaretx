@@ -112,14 +112,15 @@
             padding: 0 20px;
         }
 
-        /* About Section */
+        /* About Section - Centered Text Customization */
         .bio-card {
             background: var(--white);
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(20, 54, 22, 0.04);
             margin-bottom: 50px;
-            border-left: 6px solid var(--primary);
+            border-top: 6px solid var(--primary); /* Balanced top border accent for centering styling */
+            text-align: center; /* Centers text elements inside this container */
         }
 
         .bio-card h2 {
@@ -132,6 +133,9 @@
             font-size: 1.15rem;
             color: #334434;
             margin-bottom: 15px;
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .bio-card p:last-child {
@@ -181,6 +185,45 @@
             font-size: 1rem;
         }
 
+        /* Why Us Section Layout */
+        .why-us-section {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(20, 54, 22, 0.03);
+            border: 1px solid #e3efe4;
+            margin-bottom: 50px;
+        }
+
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 15px;
+            list-style: none;
+        }
+
+        .why-us-item {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .why-us-item:hover {
+            background-color: var(--bg-light);
+        }
+
+        .why-us-icon {
+            color: #22c55e; /* Vibrant Checkmark Green */
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
         /* Service Locations Banner */
         .location-zone {
             background-color: #eaf7eb;
@@ -226,6 +269,8 @@
             header p.tagline { font-size: 1.1rem; }
             .bio-card { padding: 25px; }
             .services-container { grid-template-columns: 1fr; }
+            .why-us-section { padding: 25px; }
+            .why-us-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -236,7 +281,7 @@
             <span class="brand-badge">Professional Property Care</span>
             <h1>Lonzo Lawn Care LLC</h1>
             <p class="tagline">Professional Lawn Care &amp; Landscaping Services in Central Texas</p>
-            <div class="bilingual-pill"> Se Habla Español — English &amp; Spanish Services</div>
+            <div class="bilingual-pill">Se Habla Español — English &amp; Spanish Services</div>
             <br>
             <a href="mailto:lonzomontelongo@gmail.com" class="cta-btn">Get a Free Estimate / Presupuesto Gratis</a>
         </div>
@@ -252,17 +297,31 @@
         <h2 class="section-heading">Our Services</h2>
         <section class="services-container">
             <div class="service-box">
-                <h3>🌱 Lawn Mowing & Maintenance</h3>
+                <h3>🌱 Lawn Mowing &amp; Maintenance</h3>
                 <p>Mowing, edging, weed trimming, blowing off driveways and sidewalks.</p>
             </div>
             <div class="service-box">
-                <h3>🌳 Landscaping & Mulch Installation</h3>
+                <h3>🌳 Landscaping &amp; Mulch Installation</h3>
                 <p>Mulch installation, flower bed cleanup, planting shrubs and flowers, landscape refreshes.</p>
             </div>
             <div class="service-box">
-                <h3>✂️ Tree & Hedge Trimming &amp; Cleanups</h3>
+                <h3>✂️ Tree &amp; Hedge Trimming &amp; Cleanups</h3>
                 <p>Hedge shaping, bush trimming, small tree pruning, removal of overgrown branches.</p>
             </div>
+        </section>
+        
+        <h2 class="section-heading">Why Us? / ¿Por Qué Nosotros?</h2>
+        <section class="why-us-section">
+            <ul class="why-us-grid">
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Bilingual Service / Servicio Bilingüe</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Free Estimates / Presupuestos Gratis</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Reliable &amp; Honest / Confiable y Honesto</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Attention to Detail / Atención al Detalle</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Locally Owned / Negocio Local</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Flexible Scheduling / Horarios Flexibles</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Quality Workmanship / Trabajo de Calidad</li>
+                <li class="why-us-item"><span class="why-us-icon">✓</span> Customer Satisfaction Focused / Enfocados en la Satisfacción del Cliente</li>
+            </ul>
         </section>
         
         <section class="location-zone">
