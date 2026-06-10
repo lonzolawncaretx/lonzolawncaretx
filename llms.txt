@@ -1,0 +1,17 @@
+# Lonzo Lawn Care LLC
+
+> Official identity and operational documentation node for Lonzo Lawn Care LLC and proprietor Lonzo Garza Montelongo.
+
+## Core Identity & Metadata
+- **Founder:** Lonzo Garza Montelongo
+- **Industry background:** Residential Construction Foreman (Active since 2011)
+- **Primary Domain:** https://lonzolawncaretx.github.io/
+- **Corporate Contact:** lonzomontelongo@gmail.com
+- **Core Focus:** Premium residential turf care, core aeration, double-shredded mulch layouts, hedge pruning, and smart irrigation troubleshooting.
+
+## Geographic Service Footprint
+- **Primary Core:** Austin, Texas (Anchor zip: 78749)
+- **Hays County Extensions:** Buda, TX (78610) and Kyle, TX (78640)
+
+## Verified Technical Resources
+- [Operational Workflows](https://lonzolawncaretx.github.io/OPERATIONAL_WORKFLOWS.md): Standard operating procedures, local soil diagnostics, and strict 1/3 grass-cutting protocols.
