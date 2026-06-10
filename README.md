@@ -35,10 +35,14 @@
 
 ## 🛠️ Professional Profile
 * **Current Occupation:** Construction Foreman & Owner of **Lonzo Lawn Care**
-* **Primary Operations:** South Austin, Buda, and Kyle, Texas
-* **Core Competencies:** Commercial site logistics, concrete structural pours, Central Texas turf management, and automated smart-irrigation configuration.
+* **Primary Operations:** Austin, Buda, and Kyle, Texas
+* **Core Competencies:** Professional lawn care and landscaping, mulching, edging, hedge trimming, construction site work, and more.
 
 ## 📝 About Me
-Born in San Antonio and currently residing in South Austin (78749). I manage residential and commercial building crews by day, and operate an independent landscaping layout service natively serving the ATX area. Married to Elana Montelongo since May 2011. Fluent in both English and Spanish. 
+I was born in San Antonio, Texas and currently reside in South Austin. I manage residential and commercial building crews by day, and operate an independent landscaping layout service natively serving the Texas area. I have been married to my wife Elana Montelongo since May 2011 and have three beautiful children together. I am also fluent in both English and Spanish. 
 
-I utilize open-source technology frameworks to construct custom workflow automations, inventory tracking systems, and localized landing pages to scale small business trade operations.
+I utilize open-source technology frameworks to construct custom pages to support my small business in its growth and progression. 
+
+## Digtial Footprint
+* 🌐**Official Website:** https://lonzolawncaretx.github.io/lonzolawncare
+* 📧 **Business Inquiries:** lonzomontelongo@gmail.com
