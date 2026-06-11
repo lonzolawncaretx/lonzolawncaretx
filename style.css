@@ -1,0 +1,93 @@
+/* Pre-Footer Social Section */
+.social-connect-section {
+    background-color: #f8f9fa; /* Light, clean background */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.social-connect-container h3 {
+    font-size: 1.6rem;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.social-connect-container p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flexbox container for horizontal buttons */
+.social-connect-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Stacks icons naturally on mobile screens */
+}
+
+/* Styled Pill-Buttons for each platform */
+.social-connect-icons a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    padding: 10px 22px;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px; /* Perfect pill shape */
+    transition: all 0.3s ease;
+}
+
+/* Base Hover Setup */
+.social-connect-icons a:hover {
+    color: #ffffff;
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LinkedIn Hover (Blue) */
+.social-connect-icons a[aria-label="LinkedIn"]:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+}
+
+/* YouTube Hover (Red) */
+.social-connect-icons a[aria-label="YouTube"]:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+/* X Hover (Black) */
+.social-connect-icons a[aria-label="X"]:hover {
+    background-color: #0f1419;
+    border-color: #0f1419;
+}
+
+/* Reddit Hover (Orange-Red) */
+.social-connect-icons a[aria-label="Reddit"]:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+/* Substack Hover (Organic Orange/Vibrant Orange) */
+.social-connect-icons a[aria-label="Substack"]:hover {
+    background-color: #ff5c35;
+    border-color: #ff5c35;
+}
+
+/* Clean Simplified Footer Styling */
+footer {
+    background-color: #1a1a1a;
+    color: #b3b3b3;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+}
