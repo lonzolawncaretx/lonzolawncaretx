@@ -371,6 +371,30 @@
         }
     </style>
 </head>
+    <script>
+  let currentSlideIndex = 0;
+
+  function moveSlide(direction) {
+    const slides = document.querySelectorAll('.carousel-slide');
+    
+    // Remove active status from the current slide
+    slides[currentSlideIndex].classList.remove('active');
+    
+    // Calculate the new slide index
+    currentSlideIndex += direction;
+    
+    // Loop back to start or end if boundaries are crossed
+    if (currentSlideIndex >= slides.length) {
+      currentSlideIndex = 0;
+    }
+    if (currentSlideIndex < 0) {
+      currentSlideIndex = slides.length - 1;
+    }
+    
+    // Add active status to the new slide
+    slides[currentSlideIndex].classList.add('active');
+  }
+</script>
 <body>
 
     <header>
@@ -418,6 +442,37 @@
                 <h3>✂️ Tree &amp; Hedge Trimming &amp; Cleanups</h3>
                 <p>Hedge shaping, bush trimming, small tree pruning, removal of overgrown branches.</p>
             </div>
+            <!-- The Carousel Wrapper -->
+<div class="carousel-container">
+  
+  <!-- Slide 1 -->
+  <div class="carousel-slide active">
+    <img src="Photo1.jpg" alt="Lawn Mowing Service">
+    <div class="carousel-caption">Professional Lawn Maintenance</div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="carousel-slide">
+    <img src="Photo2.jpg" alt="Landscaping and Mulch">
+    <div class="carousel-caption">Fresh Mulch & Flower Bed Cleanups</div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="carousel-slide">
+    <img src="Photo3.jpg" alt="Tree Trimming">
+    <div class="carousel-caption">Tree & Hedge Trimming</div>
+  </div>
+    
+     <!-- Slide 4 -->
+  <div class="carousel-slide">
+    <img src="Photo4.jpg" alt="Tree Trimming">
+    <div class="carousel-caption">Lawn Maintenance</div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+</div>
         </section>
         
         <h2 class="section-heading">Why Us? / ¿Por Qué Nosotros?</h2>
