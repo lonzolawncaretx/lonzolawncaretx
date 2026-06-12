@@ -91,4 +91,72 @@ footer {
     text-align: center;
     font-size: 0.85rem;
 }
+/* Carousel Container sizing and boundary */
+.carousel-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
 
+/* Hide slides by default */
+.carousel-slide {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+
+/* Force images to maintain a uniform, professional ratio without warping */
+.carousel-slide img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Only display the active slide */
+.carousel-slide.active {
+  display: block;
+}
+
+/* Navigation Arrow Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-btn.next {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+.carousel-btn.prev {
+  left: 0;
+}
+
+/* Text Captions at the bottom of each photo */
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
