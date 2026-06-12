@@ -108,12 +108,12 @@ footer {
   width: 100%;
 }
 
-/* Force images to maintain a uniform, professional ratio without warping */
+/* This forces EVERY image inside the carousel to look exactly the same */
 .carousel-slide img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  display: block;
+  width: 100% !important;
+  height: 500px !important;    /* Forces a uniform height */
+  object-fit: cover !important; /* Crops them perfectly so they don't stretch */
+  display: block !important;
 }
 
 /* Only display the active slide */
