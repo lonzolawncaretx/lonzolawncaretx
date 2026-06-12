@@ -93,7 +93,8 @@ footer {
 }
 /* Carousel Container sizing and boundary */
 .carousel-container {
-  max-width: 1200px;
+  max-width: 100%;
+  width: 100vw;
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -111,7 +112,7 @@ footer {
 /* This forces EVERY image inside the carousel to look exactly the same */
 .carousel-slide img {
   width: 100% !important;
-  height: 500px !important;    /* Forces a uniform height */
+  height: 600px !important;    /* Forces a uniform height */
   object-fit: cover !important; /* Crops them perfectly so they don't stretch */
   display: block !important;
 }
