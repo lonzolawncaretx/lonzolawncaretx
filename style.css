@@ -169,3 +169,77 @@ footer {
   width: 100%;
   padding: 40px 0;         /* Adds clean breathing room above and below the carousel */
 }
+/* Center and containerize the image area */
+.image-wrapper {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+/* Force the figure block to act as a solid container frame */
+figure.effect-caption {
+  position: relative;
+  overflow: hidden; /* This hides the caption while it sits just below the frame line */
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: #1b5e20; /* Dark forest green background shows through during blend */
+}
+
+/* Ensure the image looks crisp and fills the card space */
+figure.effect-caption img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* Style the hidden caption overlay box */
+figure.effect-caption figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%);
+  
+  /* The Secret: Move it down out of sight and make it invisible by default */
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  
+  /* Centers the text nicely inside the box */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Text styling inside the caption */
+figure.effect-caption figcaption h3 {
+  margin: 0 0 8px 0;
+  color: #4caf50; /* Bright accent green for the header text */
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+figure.effect-caption figcaption p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+/* 🚀 THE HOVER EFFECTS */
+
+/* 1. Slide the text caption smoothly UP into view */
+figure.effect-caption:hover figcaption {
+  transform: translateY(0);
+}
+
+/* 2. Slightly zoom and dim the background photo for contrast */
+figure.effect-caption:hover img {
+  transform: scale(1.05); /* Soft, cinematic zoom effect */
+  opacity: 0.6;           /* Dims the image slightly so text is easy to read */
+}
