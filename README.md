@@ -43,6 +43,11 @@ I was born in San Antonio, Texas and currently reside in South Austin. I manage 
 
 I utilize open-source technology frameworks to construct custom pages to support my small business in its growth and progression. 
 
-## Digtial Footprint
+## Associated Social Accounts
 * 🌐**Official Website:** https://lonzolawncaretx.github.io/lonzolawncare
 * 📧 **Business Inquiries:** lonzomontelongo@gmail.com
+* 💼 **LinkedIn:** https://www.linkedin.com/in/lonzolawncaretx/
+* ▶️ **YouTube:** https://www.youtube.com/@LonzoLawnCare
+* ✖️ **X:** https://x.com/LonzoLawnCareTX
+* 📰 **Substack:** https://substack.com/@lonzolawncaretx
+* 🤖 **Reddit:** https://www.reddit.com/user/LonzoLawnCareTX/
