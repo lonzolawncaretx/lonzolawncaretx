@@ -91,38 +91,4 @@ footer {
     text-align: center;
     font-size: 0.85rem;
 }
-/* Styling for all major section titles */
-h2 {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #1b5e20; /* Deep, rich forest green */
-  font-size: 28px;
-  font-weight: 700;
-  text-transform: uppercase; /* Makes it look modern and sharp */
-  letter-spacing: 1px; /* Gives the letters room to breathe */
-  margin-top: 50px; /* Spaces out different sections nicely */
-  margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
-}
 
-/* Clever trick: Adds a cool green accent underline under the section header */
-h2::after {
-  content: '';
-  display: block;
-  width: 50%; /* Line covers half the header width */
-  height: 4px; /* Thickness of the line */
-  background-color: #4caf50; /* Brighter grass green */
-  margin-top: 8px;
-  border-radius: 2px;
-}
-
-/* Styling for sub-sections or smaller headers */
-h3 {
-  font-family: Arial, sans-serif;
-  color: #555555; /* Soft professional grey */
-  font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
-  margin-top: -10px; /* Pulls it closer to the H2 above it */
-  margin-bottom: 30px;
-}
